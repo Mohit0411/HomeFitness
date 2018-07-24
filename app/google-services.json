@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1086077733193",
+    "firebase_url": "https://home-fitness-fb312.firebaseio.com",
+    "project_id": "home-fitness-fb312",
+    "storage_bucket": "home-fitness-fb312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086077733193:android:f04f1e0082da2a37",
+        "android_client_info": {
+          "package_name": "com.flamezz.homefitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086077733193-qn01ahq4909ht1tb4d8f5nk0ojc6ehdv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flamezz.homefitness",
+            "certificate_hash": "787eb3b418e42719970f7953fe3033ac33c9e96b"
+          }
+        },
+        {
+          "client_id": "1086077733193-ddialso10i1bg4uuntgmnt2us1lrogkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuW3PJoS-dFGysIUyHvKbS8EenbsLnz1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086077733193-ddialso10i1bg4uuntgmnt2us1lrogkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

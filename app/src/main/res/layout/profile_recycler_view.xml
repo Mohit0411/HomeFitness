@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:paddingBottom="10sp"
+    android:paddingTop="10sp"
+    android:layout_height="300sp">
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5sp"
+        app:cardCornerRadius="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp">
+
+
+        <TextView
+            android:id="@+id/profileName"
+            android:text="@string/profile_name"
+            android:textSize="20sp"
+            android:fontFamily="@font/droidsans"
+            android:textColor="#000"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        app:cardElevation="5sp"
+        app:cardCornerRadius="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp">
+
+
+        <TextView
+            android:id="@+id/profileEmail"
+            android:text="@string/profile_email"
+            android:textSize="20sp"
+            android:fontFamily="@font/droidsans"
+            android:textColor="#000"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        app:cardElevation="5sp"
+        app:cardCornerRadius="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp">
+
+
+        <TextView
+            android:id="@+id/profilePhone"
+            android:text="@string/profile_home"
+            android:textSize="20sp"
+            android:fontFamily="@font/droidsans"
+            android:textColor="#000"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingRight="10sp"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:layout_height="150sp"
+    android:paddingBottom="10sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardElevation="10sp"
+        app:cardCornerRadius="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/exerciseName"
+        android:text="@string/test"
+        android:fontFamily="@font/volkron"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/difficultyLevel1"
+            android:layout_marginTop="80sp"
+            android:layout_width="50dp"
+            android:layout_height="30dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/difficultyLevel2"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="80sp"
+            android:layout_width="50dp"
+            android:layout_height="30dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/difficultyLevel3"
+            android:layout_marginStart="60sp"
+            android:layout_marginTop="80sp"
+            android:layout_width="50dp"
+            android:layout_height="30dp" />
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

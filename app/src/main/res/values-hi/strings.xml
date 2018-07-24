@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">गृह स्वास्थ्य </string>
+    <string name="title_activity_home_page">होमपेज गतिविधि</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">एंड्रॉइड स्टूडियो</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">नेविगेशन हेडर</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one_step_away">एक कदम दूर</string>
+    <string name="from_being_fit">फिट होने से</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पारण शब्द</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="home_fitness">गृह स्वास्थ्य</string>
+    <string name="fitness_at_your_door_step">अपने दरवाजे पर स्वास्थ्य</string>
+    <string name="full_name">Fपूरा नाम</string>
+    <string name="email_id">ईमेल आईडी</string>
+    <string name="password2">पारण शब्द</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="phone_no">फोन नंबर</string>
+    <string name="register">रजिस्टर</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="fitness">उपयुक्तता</string>
+    <string name="welcome">स्वागत हे</string>
+    <string name="your_profile">
+आपकी रूपरेखा</string>
+    <string name="profile_name">नाम</string>
+    <string name="profile_email">ईमेल</string>
+    <string name="profile_home">फ़ोन</string>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Home Fitness</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one_step_away">ONE STEP AWAY</string>
+    <string name="from_being_fit">FROM BEING FIT</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="home_fitness">HOME FITNESS</string>
+    <string name="fitness_at_your_door_step">Fitness At Your Door Step</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="password2">Password2</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_no">Phone No</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="fitness">FITNESS</string>
+    <string name="welcome">Welcome</string>
+    <string name="test">TEST</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="profile_name">NAME</string>
+    <string name="profile_email">EMAIL</string>
+    <string name="profile_home">PHONE</string>
+</resources>

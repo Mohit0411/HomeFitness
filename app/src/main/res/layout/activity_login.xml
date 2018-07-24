@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/newbackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:fontFamily="@font/volkron"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:text="@string/one_step_away"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:layout_marginStart="40sp"
+            android:layout_width="300sp"
+            android:layout_height="40dp" />
+        <TextView
+            android:fontFamily="@font/volkron"
+            android:textStyle="bold"
+            android:layout_marginTop="0dp"
+            android:text="@string/from_being_fit"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="38sp"
+            android:layout_marginStart="0sp"
+            android:layout_width="400sp"
+            android:layout_height="50dp" />
+
+        <EditText
+
+            android:hint="@string/email"
+            android:fontFamily="@font/droidsans"
+            android:id="@+id/edittext_email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:hint="@string/password"
+            android:fontFamily="@font/droidsans"
+            android:id="@+id/edittext_password"
+            android:layout_marginTop="30dp"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/droidsans"
+            android:textStyle="bold"
+            android:text="@string/login"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:layout_marginTop="50sp"
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+
+
+        <Button
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/droidsans"
+            android:textStyle="bold"
+            android:text="@string/sign_up"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:layout_marginTop="10sp"
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

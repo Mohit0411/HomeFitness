@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group android:checkableBehavior="single">
+        <item
+            android:iconTint="@color/colorPrimaryDark"
+            android:id="@+id/nav_trainingplans"
+            android:icon="@drawable/training"
+            android:title="Training Plans" />
+        <item
+            android:iconTint="@color/colorPrimaryDark"
+            android:id="@+id/nav_language"
+            android:icon="@drawable/language"
+            android:title="Language" />
+        <item
+            android:iconTint="@color/colorPrimaryDark"
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:iconTint="@color/colorPrimaryDark"
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+        </group>
+
+
+</menu>

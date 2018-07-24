@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/workingonlaptop"
+    android:id="@+id/cardView"
+    android:layout_height="570sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="5sp"
+            app:contentPaddingRight="10sp"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:contentPaddingLeft="10sp"
+            android:layout_height="match_parent">
+        <EditText
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:id="@+id/fullName"
+            android:layout_marginTop="10sp"
+            android:hint="@string/full_name"
+            android:textSize="18sp"
+            android:fontFamily="@font/droidsans"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:id="@+id/emailID"
+            android:hint="@string/email_id"
+            android:textSize="18sp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/droidsans"
+            android:layout_marginTop="80sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:id="@+id/password"
+            android:textSize="18sp"
+            android:hint="@string/password"
+            android:fontFamily="@font/droidsans"
+            android:inputType="textPassword"
+            android:layout_marginTop="160sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:hint="@string/confirm_password"
+            android:id="@+id/confirmPassword"
+            android:fontFamily="@font/droidsans"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            android:layout_marginTop="240sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:id="@+id/phoneNo"
+            android:hint="@string/phone_no"
+            android:fontFamily="@font/droidsans"
+            android:textSize="18sp"
+            android:inputType="phone"
+            android:layout_marginTop="320sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/droidsans"
+            android:textStyle="bold"
+            android:text="@string/register"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:layout_marginTop="400sp"
+            android:id="@+id/createAccountButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <Button
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/droidsans"
+            android:textStyle="bold"
+            android:text="@string/cancel"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:layout_marginTop="460sp"
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>
